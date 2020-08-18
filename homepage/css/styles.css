@@ -58,8 +58,22 @@
 }
 
 
-
-
+#c2{
+	background-image: url("./images/c2if.png"); 
+	border-color: #67cdf5;
+	font-size: 0px;
+}
+#c2:hover{
+	padding-top: 85px;
+	font-size: 14px;
+	opacity: 1;
+	font-weight: bold;
+	background-image: url("./images/c2fade.png");
+	border-color: #67cdf5;	
+}
+#b2{
+	background-color: #67cdf5;
+}
 
 
 
