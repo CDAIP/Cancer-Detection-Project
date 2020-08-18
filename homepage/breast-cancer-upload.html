@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CDAIP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+
+<h1>Breast Cancer</h1>
+<h5>To make predictions using the AI, we will require the following information. Information is not stored or shared in any form.</h5>
+
+<div class="container" id="bcupl">
+	<section id="bcsec">Required Information</section>
+<form action="" method="get">
+	<table>
+
+	  <tr>
+  	<th>  <label for="MeanTexture">Mean Texture</label> </th>
+  	<th> <input type="number" name="Mean Texture" id="MeanTexture" step="0.01" class="ipt"> </th>
+  </tr>
+
+  <tr>
+    <th> <label for="MeanRadius">Mean Radius</label> </th>
+    <th> <input type="number" name="Mean Radius" id="MeanRadius" step="0.01" class="ipt"> </th>
+  </tr>
+  
+  <tr>
+  	<th>  <label for="MeanParameter" >Mean Parameter</label> </th>
+  	<th> <input type="number" name="Mean Parameter" id="MeanParameter" step="0.01" class="ipt"> </th>
+  </tr>
+ 
+   <tr>
+  	<th>  <label for="MeanArea">Mean Area</label> </th>
+  	<th> <input type="number" name="Mean Area" id="MeanArea" step="0.01" class="ipt"> </th>
+  </tr>
+
+   <tr>
+  	<th>  <label for="MeanSmoothness">Mean Smoothness</label> </th>
+  	<th> <input type="number" name="Mean Smoothness" id="MeanSmoothness" step="0.01" class="ipt"> </th>
+  </tr>
+
+ </table>
+ <br>
+ 
+   <input type="submit" id="submit" value="Run AI">
+  
+</form>
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
